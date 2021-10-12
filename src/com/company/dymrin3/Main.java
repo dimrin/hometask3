@@ -17,7 +17,11 @@ public class Main {
 
         System.out.println(Arrays.toString(newArray()));
     }
+    /*
+    Задан массив случаных чисел типа int в котором есть положительные и отрицательные числа.
+Написать метод который вернет массив квадратов этих чисел, отсортированных по возрастанию.
 
+    */
     public static int[] newArray() {
         int[] array = new int[7];
         for (int i = 0; i < array.length; i++) {
